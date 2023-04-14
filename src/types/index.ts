@@ -1,7 +1,5 @@
 export declare interface IAPIResponseError {
-  data: {
-    info: string;
-  };
+  data: Record<string, unknown>;
   error_message: string;
   status: string;
   code: number;
